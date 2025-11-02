@@ -2,13 +2,13 @@ React
 1) ReactJS is an open-source JavaScript library for building dynamic and interactive user interfaces(UIs).
 2) React is developed and released by Facebook.
 
-3) Merits of ReactJS
+3) MERITS
 a) Ease of Use: ReactJS does not require writing lengthy codes as it supports the Components concept so a small amount of code can be created and can be used in multiple places.
 b) Multiple Module Support
 c) Multiple Apps Development: can create Web Pages, Web Apps, Mobile Apps, and VR Apps.
 d) Large Community: ReactJS has one of the largest communities to help you when you are in trouble debugging your code.
 
-Real DOM - the actual structure of the webpage.It is a tree like structure where each HTML element is a node. 
+REAL DOM - the actual structure of the webpage.It is a tree like structure where each HTML element is a node. 
 <html>
   <body>
     <h1>Hello</h1>
@@ -16,11 +16,19 @@ Real DOM - the actual structure of the webpage.It is a tree like structure where
   </body>
 </html>
 
-4) Features of React
-a) Virtual DOM - is a king of actual DOM. it represent the real DOM of the current HTML document. Whenever there is a change in the HTML document, React checks the updated virtual DOM with the previous state
+FEATURES OF REACT
+a) Virtual DOM - is a kind of actual DOM. It represent the real DOM of the current HTML document. Whenever there is a change in the HTML document, React checks the updated virtual DOM with the previous state
 of the Virtual DOM and updates the difference in the actual DOM>
+b) Resuable Components based- Components needs to be written a single time and can be used multiple times by just calling that component where we require that component.
+c) One-way Data Binding - it prevents the data in a component from flowing backward. A component can pass the data to its child component only.This simply data handling and reduce the complexity.
+d) Better and Faster Performance
+e) Extremely Flexible
+d) Creates dynamic applications easily
+e) Develops Mobile Applications as well
+f) Debugging is Easy
 
+APPLICATIONS
+a) Facebook b) Instagram c) Netflix d) Code Academy e) Reddit
 
-Whenever there is a change in the HTML document, React checks the updated virtual DOM with the previous state of the Virtual DOM and updates only the difference in th actual/real DOM.
-Reusable Components: Components need to be written a single time and can be used multiple times by just calling that component where we require that component.
-One-Way Data Binding: One-way data binding prevents the data in a component from flowing backward. A component can pass the data to its child component only. This will simplify the data handling and reduce the complexity.
+INSTALLATION
+https://www.tutorialspoint.com/reactjs/reactjs_installation.htm
