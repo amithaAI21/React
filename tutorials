@@ -8,4 +8,19 @@ b) Multiple Module Support
 c) Multiple Apps Development: can create Web Pages, Web Apps, Mobile Apps, and VR Apps.
 d) Large Community: ReactJS has one of the largest communities to help you when you are in trouble debugging your code.
 
-4) 
+Real DOM - the actual structure of the webpage.It is a tree like structure where each HTML element is a node. 
+<html>
+  <body>
+    <h1>Hello</h1>
+    <p>Welcome to React!</p>
+  </body>
+</html>
+
+4) Features of React
+a) Virtual DOM - is a king of actual DOM. it represent the real DOM of the current HTML document. Whenever there is a change in the HTML document, React checks the updated virtual DOM with the previous state
+of the Virtual DOM and updates the difference in the actual DOM>
+
+
+Whenever there is a change in the HTML document, React checks the updated virtual DOM with the previous state of the Virtual DOM and updates only the difference in th actual/real DOM.
+Reusable Components: Components need to be written a single time and can be used multiple times by just calling that component where we require that component.
+One-Way Data Binding: One-way data binding prevents the data in a component from flowing backward. A component can pass the data to its child component only. This will simplify the data handling and reduce the complexity.
